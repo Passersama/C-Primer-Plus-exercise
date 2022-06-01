@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+	double num;
+	printf("请输入待转换英寸:");
+	scanf_s("%lf",&num);
+	if (num < 0)
+		printf("输入非法");
+	else
+		printf("%lf对应的厘米为%lf", num, 2.54 * num);
+	return 0;
+}
