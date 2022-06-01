@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(void) 
+{
+	printf("xu zhiwei\n");
+	printf("xu\nzhiwei\n");
+	printf("xu zhiwei");
+	return 0;
+}
