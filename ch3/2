@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void)
+{
+	int num;
+	printf("请输入一个ASCII码值：");
+	scanf_s("%d" ,&num);
+	printf("%d对应的ASCII字符：%c", num, num);
+	return 0;
+}
