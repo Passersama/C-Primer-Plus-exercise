@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(void)
+{
+	float num;
+	printf("请输入水的夸脱:");
+	scanf_s("%f",&num);
+	printf("%f夸脱水含%e个水分子.",num, num * 950 / 3.0e-23);
+	return 0;
+}
