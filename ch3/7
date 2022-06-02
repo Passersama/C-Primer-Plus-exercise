@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void)
+{
+	float ch;
+	printf("请输入您的身高（英寸）：");
+	scanf_s("%f", &ch);
+	printf("您的身高换算成厘米为：%f", ch * 2.54);
+	return 0;
+}
