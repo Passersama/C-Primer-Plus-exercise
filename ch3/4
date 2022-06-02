@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	float ch;
+	printf("Enter a floating-point value:");
+	scanf_s("%f", &ch);
+	printf("\nfixed_point notation: %f", ch);
+	printf("\nexponential notation: %e", ch);
+	printf("\np notation: %a", ch);
+	return 0;
+}
